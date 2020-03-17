@@ -26,6 +26,7 @@ public class SimpleTest {
     void afterEach(){
         LOG.info("After Each");
     }
+
     @Test
     void simpleTest1(){
         LOG.info("Test1 complete");
